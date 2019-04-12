@@ -80,16 +80,18 @@ namespace HeroesOfTheStormChooser.Configuration
         {
             switch (role)
             {
-                case eRole.Specialist:
-                    return Color.Violet;
-                case eRole.Assasin:
-                    return Color.Red;
-                case eRole.Support:
-                    return Color.Green;
-                case eRole.Warrior:
+                case eRole.Tank:
+                    return Color.Gray;
+                case eRole.Bruiser:
                     return Color.Brown;
-                case eRole.Multiclass:
-                    return Color.Blue;
+                case eRole.Support:
+                    return Color.Orange;
+                case eRole.MeleeAssasin:
+                    return Color.Violet;
+                case eRole.RangedAssasin:
+                    return Color.Red;
+                case eRole.Healer:
+                    return Color.Green;
                 default:
                     return Color.Black;
             }
@@ -115,7 +117,7 @@ namespace HeroesOfTheStormChooser.Configuration
                 pictureBox.Tag = hero;
                 pictureBox.Location = new Point(actualWidth, actualHeight);
                 pictureBox.Size = new Size(PictureBoxWidth, PictureBoxHeight);
-                pictureBox.Image = Image.FromFile($"{Directory.GetCurrentDirectory()}\\{"HeroesIcons"}\\{hero.Name}.png");
+                pictureBox.Image = Image.FromFile($"{Directory.GetCurrentDirectory()}\\{"Assets\\HeroesIcons"}\\{hero.Name}.png");
                 pictureBox.SizeMode = PictureBoxSizeMode.Zoom;               
 
                 new ToolTip().SetToolTip(pictureBox, hero.Name);

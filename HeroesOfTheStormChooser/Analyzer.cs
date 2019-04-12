@@ -43,11 +43,6 @@ namespace HeroesOfTheStormChooser
                 return true;
             }
 
-            if (hero.Role == Enums.eRole.Multiclass)
-            {
-                return false;
-            }
-
             CorrectTemplate correctTemplate = new CorrectTemplate(ally);
             return !correctTemplate.IsInTemplate(hero);
         }

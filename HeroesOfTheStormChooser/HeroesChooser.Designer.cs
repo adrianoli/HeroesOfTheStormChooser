@@ -43,9 +43,11 @@
             this.uiPcbMap = new System.Windows.Forms.PictureBox();
             this.uiBtnAnalyze = new System.Windows.Forms.Button();
             this.uiBtnReset = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.uiMsConfiguration = new System.Windows.Forms.MenuStrip();
             this.uiTsmConfiguration = new System.Windows.Forms.ToolStripMenuItem();
             this.uiTsmHeroConfiuration = new System.Windows.Forms.ToolStripMenuItem();
+            this.uiTsmiAddNewHero = new System.Windows.Forms.ToolStripMenuItem();
+            this.uiTsmiAddNewMap = new System.Windows.Forms.ToolStripMenuItem();
             this.uiGpYourAlly.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uiPcbAlly4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.uiPcbAlly3)).BeginInit();
@@ -59,7 +61,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.uiPcbOpponent1)).BeginInit();
             this.uiGpbMap.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uiPcbMap)).BeginInit();
-            this.menuStrip1.SuspendLayout();
+            this.uiMsConfiguration.SuspendLayout();
             this.SuspendLayout();
             // 
             // uiGpYourAlly
@@ -194,7 +196,7 @@
             // uiBtnAnalyze
             // 
             this.uiBtnAnalyze.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.uiBtnAnalyze.Location = new System.Drawing.Point(1404, 815);
+            this.uiBtnAnalyze.Location = new System.Drawing.Point(1404, 894);
             this.uiBtnAnalyze.Name = "uiBtnAnalyze";
             this.uiBtnAnalyze.Size = new System.Drawing.Size(75, 23);
             this.uiBtnAnalyze.TabIndex = 3;
@@ -205,7 +207,7 @@
             // uiBtnReset
             // 
             this.uiBtnReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.uiBtnReset.Location = new System.Drawing.Point(1323, 815);
+            this.uiBtnReset.Location = new System.Drawing.Point(1323, 894);
             this.uiBtnReset.Name = "uiBtnReset";
             this.uiBtnReset.Size = new System.Drawing.Size(75, 23);
             this.uiBtnReset.TabIndex = 5;
@@ -213,20 +215,22 @@
             this.uiBtnReset.UseVisualStyleBackColor = true;
             this.uiBtnReset.Click += new System.EventHandler(this.uiBtnReset_Click);
             // 
-            // menuStrip1
+            // uiMsConfiguration
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.uiMsConfiguration.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.uiTsmConfiguration});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1491, 24);
-            this.menuStrip1.TabIndex = 6;
-            this.menuStrip1.Text = "menuStrip1";
+            this.uiMsConfiguration.Location = new System.Drawing.Point(0, 0);
+            this.uiMsConfiguration.Name = "uiMsConfiguration";
+            this.uiMsConfiguration.Size = new System.Drawing.Size(1491, 24);
+            this.uiMsConfiguration.TabIndex = 6;
+            this.uiMsConfiguration.Text = "menuStrip1";
             // 
             // uiTsmConfiguration
             // 
             this.uiTsmConfiguration.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.uiTsmHeroConfiuration});
+            this.uiTsmHeroConfiuration,
+            this.uiTsmiAddNewHero,
+            this.uiTsmiAddNewMap});
             this.uiTsmConfiguration.Name = "uiTsmConfiguration";
             this.uiTsmConfiguration.Size = new System.Drawing.Size(86, 20);
             this.uiTsmConfiguration.Text = "Konfiguracja";
@@ -235,23 +239,36 @@
             // uiTsmHeroConfiuration
             // 
             this.uiTsmHeroConfiuration.Name = "uiTsmHeroConfiuration";
-            this.uiTsmHeroConfiuration.Size = new System.Drawing.Size(180, 22);
+            this.uiTsmHeroConfiuration.Size = new System.Drawing.Size(201, 22);
             this.uiTsmHeroConfiuration.Text = "Bohatertów";
             this.uiTsmHeroConfiuration.Click += new System.EventHandler(this.uiTsmHeroConfiuration_Click);
+            // 
+            // uiTsmiAddNewHero
+            // 
+            this.uiTsmiAddNewHero.Name = "uiTsmiAddNewHero";
+            this.uiTsmiAddNewHero.Size = new System.Drawing.Size(201, 22);
+            this.uiTsmiAddNewHero.Text = "Dodaj nowego bohatera";
+            this.uiTsmiAddNewHero.Click += new System.EventHandler(this.uiTsmiAddNewHero_Click);
+            // 
+            // uiTsmiAddNewMap
+            // 
+            this.uiTsmiAddNewMap.Name = "uiTsmiAddNewMap";
+            this.uiTsmiAddNewMap.Size = new System.Drawing.Size(201, 22);
+            this.uiTsmiAddNewMap.Text = "Dodaj nową mapę";
             // 
             // HeroesChooser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1491, 850);
+            this.ClientSize = new System.Drawing.Size(1491, 929);
             this.Controls.Add(this.uiBtnReset);
             this.Controls.Add(this.uiBtnAnalyze);
             this.Controls.Add(this.uiGpbMap);
             this.Controls.Add(this.uiGpbOponents);
             this.Controls.Add(this.uiGpYourAlly);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.MinimumSize = new System.Drawing.Size(1507, 889);
+            this.Controls.Add(this.uiMsConfiguration);
+            this.MainMenuStrip = this.uiMsConfiguration;
+            this.MinimumSize = new System.Drawing.Size(1507, 968);
             this.Name = "HeroesChooser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Wybór bohatera do rozgrywki";
@@ -269,8 +286,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.uiPcbOpponent1)).EndInit();
             this.uiGpbMap.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.uiPcbMap)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.uiMsConfiguration.ResumeLayout(false);
+            this.uiMsConfiguration.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -293,9 +310,11 @@
         private System.Windows.Forms.PictureBox uiPcbMap;
         private System.Windows.Forms.Button uiBtnAnalyze;
         private System.Windows.Forms.Button uiBtnReset;
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip uiMsConfiguration;
         private System.Windows.Forms.ToolStripMenuItem uiTsmConfiguration;
         private System.Windows.Forms.ToolStripMenuItem uiTsmHeroConfiuration;
+        private System.Windows.Forms.ToolStripMenuItem uiTsmiAddNewHero;
+        private System.Windows.Forms.ToolStripMenuItem uiTsmiAddNewMap;
     }
 }
 

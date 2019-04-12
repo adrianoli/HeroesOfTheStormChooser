@@ -233,5 +233,15 @@ namespace HeroesOfTheStormChooser
                 configurationForm.ShowDialog();
             }
         }
+
+        private void uiTsmiAddNewHero_Click(object sender, EventArgs e)
+        {
+            object jsonFile = JsonManager.LoadJsonFile("Heroes.json");
+
+            using (var heroAddForm = new HeroConfiguration(jsonFile))
+            {
+                heroAddForm.ShowDialog();
+            }
+        }
     }
 }

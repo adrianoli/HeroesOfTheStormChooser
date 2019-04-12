@@ -34,7 +34,7 @@
             // uiBtnOk
             // 
             this.uiBtnOk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.uiBtnOk.Location = new System.Drawing.Point(1404, 815);
+            this.uiBtnOk.Location = new System.Drawing.Point(1404, 894);
             this.uiBtnOk.Name = "uiBtnOk";
             this.uiBtnOk.Size = new System.Drawing.Size(75, 23);
             this.uiBtnOk.TabIndex = 0;
@@ -47,9 +47,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1491, 850);
+            this.ClientSize = new System.Drawing.Size(1491, 929);
             this.Controls.Add(this.uiBtnOk);
-            this.MinimumSize = new System.Drawing.Size(1507, 889);
+            this.MinimumSize = new System.Drawing.Size(1507, 968);
             this.Name = "AddHeroesToList";
             this.Text = "AddHeroesToList";
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AddHeroesToList_MouseClick);

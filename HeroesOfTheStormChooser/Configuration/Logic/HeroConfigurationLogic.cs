@@ -21,7 +21,7 @@ namespace HeroesOfTheStormChooser.Configuration.Logic
 
         public Image GetHeroImage()
         {
-            return Image.FromFile($"{Directory.GetCurrentDirectory()}\\{"HeroesIcons"}\\{_hero.Name}.png");
+            return Image.FromFile($"{Directory.GetCurrentDirectory()}\\{"Assets\\HeroesIcons"}\\{_hero.Name}.png");
         }
 
         public string GetHeroName()

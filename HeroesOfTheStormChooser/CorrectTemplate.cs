@@ -17,17 +17,17 @@ namespace HeroesOfTheStormChooser
 
             specialistsTemplate = new List<eRole>
             {
-                eRole.Warrior, eRole.Specialist, eRole.Support, eRole.Assasin, eRole.Assasin
+                eRole.Tank, eRole.Bruiser, eRole.Healer, eRole.RangedAssasin, eRole.MeleeAssasin
             };
 
             assasinsTemplate = new List<eRole>
             {
-                eRole.Warrior, eRole.Support, eRole.Assasin, eRole.Assasin, eRole.Assasin
+                 eRole.Tank, eRole.Bruiser, eRole.Healer, eRole.RangedAssasin, eRole.Support
             };
 
             warriorTemplate = new List<eRole>
             {
-                eRole.Warrior, eRole.Warrior, eRole.Assasin, eRole.Assasin, eRole.Support
+                eRole.Tank, eRole.Bruiser, eRole.Healer, eRole.MeleeAssasin, eRole.Support
             };
 
         }
@@ -63,18 +63,6 @@ namespace HeroesOfTheStormChooser
                 for(int i = 0; i < tempRoles.Count; i++)
                 {
                     if(ally.Role == tempRoles[i])
-                    {
-                        tempRoles.RemoveAt(i);
-                        break;
-                    }
-                }
-            }
-
-            foreach(var ally in _ally)
-            {
-                for(int i = 0; i < tempRoles.Count; i++)
-                {
-                    if(ally.Role == eRole.Multiclass && (tempRoles[i] == eRole.Assasin || tempRoles[i] == eRole.Warrior))
                     {
                         tempRoles.RemoveAt(i);
                         break;

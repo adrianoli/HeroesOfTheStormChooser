@@ -34,8 +34,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1491, 850);
-            this.MinimumSize = new System.Drawing.Size(1507, 889);
+            this.ClientSize = new System.Drawing.Size(1491, 929);
+            this.MinimumSize = new System.Drawing.Size(1507, 968);
             this.Name = "ConfigurationForm";
             this.Text = "Konfiguracja bohaterów";
             this.ResumeLayout(false);

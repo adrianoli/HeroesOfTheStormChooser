@@ -84,7 +84,7 @@ namespace HeroesOfTheStormChooser
                 pictureBox.Tag = hero;
                 pictureBox.Location = new Point(actualWidth, actualHeight);
                 pictureBox.Size = new Size(_pictureBoxWidth, _pictureBoxHeight);
-                pictureBox.Image = Image.FromFile($"{Directory.GetCurrentDirectory()}\\{"HeroesIcons"}\\{hero.Name}.png");
+                pictureBox.Image = Image.FromFile($"{Directory.GetCurrentDirectory()}\\{"Assets\\HeroesIcons"}\\{hero.Name}.png");
                 pictureBox.SizeMode = PictureBoxSizeMode.Zoom;
 
                 new ToolTip().SetToolTip(pictureBox, hero.Name);

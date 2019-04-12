@@ -1,0 +1,2094 @@
+[
+  {
+    "Name": "Abathur",
+    "Role": "Support",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Illidan",
+      "Tracer",
+      "TheButcher",
+      "Murky",
+      "Greymane",
+      "Kerrigan",
+      "Sonya",
+      "Artanis",
+      "Thrall",
+      "Varian",
+      "Zeratul"
+    ],
+    "Strongs": [],
+    "Counters": [
+      "Dehaka",
+      "Falstad",
+      "Ragnaros",
+      "Zeratul",
+      "Nova",
+      "Tyrande",
+      "Azmodan"
+    ],
+    "GoodMaps": [
+      "CursedHollow",
+      "Hanamura",
+      "TowersOfDoom",
+      "VolskayaFoundry"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity",
+      "BraxisHoldout",
+      "TombOfTheSpiderQueen"
+    ]
+  },
+  {
+    "Name": "Alarak",
+    "Role": "MeleeAssasin",
+    "AttackType": "Melee",
+    "CrowdControl": [
+      "Mute"
+    ],
+    "Synergizes": [
+      "Zeratul",
+      "Tracer",
+      "Azmodan",
+      "ETC"
+    ],
+    "Strongs": [
+      "Guldan",
+      "Chen",
+      "Dva",
+      "Jaina",
+      "Malfurion"
+    ],
+    "Counters": [
+      "Uther",
+      "Anubarak",
+      "TheButcher"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "TowersOfDoom"
+    ],
+    "WeakMaps": [
+      "HauntedMines",
+      "InfernalShrines"
+    ]
+  },
+  {
+    "Name": "Alexstrasza",
+    "Role": "Healer",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Cho",
+      "Ana",
+      "Diablo",
+      "Muradin",
+      "Garrosh"
+    ],
+    "Strongs": [],
+    "Counters": [
+      "Genji",
+      "Tracer",
+      "Illidan",
+      "Chromie"
+    ],
+    "GoodMaps": [
+      "BattlefieldOfEternity",
+      "InfernalShrines",
+      "TowersOfDoom",
+      "VolskayaFoundry"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Ana",
+    "Role": "Healer",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Cho",
+      "Arthas",
+      "Dehaka",
+      "Kelthuzad",
+      "Malthael",
+      "Li-ming",
+      "Kaelthas",
+      "Guldan"
+    ],
+    "Strongs": [
+      "Dehaka"
+    ],
+    "Counters": [
+      "Lucio",
+      "Tassadar",
+      "Genji",
+      "Varian",
+      "Tracer",
+      "Illidan"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "InfernalShrines",
+      "TowersOfDoom"
+    ],
+    "WeakMaps": [
+      "GardenOfTerror",
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Anubarak",
+    "Role": "Tank",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Jaina",
+      "Kerrigan",
+      "Rehgar",
+      "Tyrael"
+    ],
+    "Strongs": [
+      "Morales",
+      "Guldan",
+      "Li_li",
+      "Kaelthas",
+      "Chromie"
+    ],
+    "Counters": [
+      "Leoric",
+      "Malthael",
+      "Tracer",
+      "Valla",
+      "Zuljin"
+    ],
+    "GoodMaps": [
+      "DragonShire"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity",
+      "InfernalShrines"
+    ]
+  },
+  {
+    "Name": "Artanis",
+    "Role": "Tank",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Malfurion",
+      "Tassadar",
+      "Zarya",
+      "Abathur"
+    ],
+    "Strongs": [
+      "SgtHammer"
+    ],
+    "Counters": [
+      "Muradin",
+      "Brightwing",
+      "Varian"
+    ],
+    "GoodMaps": [
+      "BattlefieldOfEternity",
+      "InfernalShrines"
+    ],
+    "WeakMaps": [
+      "BlackheartsBay",
+      "VolskayaFoundry"
+    ]
+  },
+  {
+    "Name": "Arthas",
+    "Role": "Tank",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Kerrigan",
+      "Thrall",
+      "Jaina",
+      "Malfurion",
+      "Kelthuzad",
+      "Lunara",
+      "Lucio",
+      "Raynor",
+      "Probius",
+      "Tyrande",
+      "Chromie"
+    ],
+    "Strongs": [
+      "Valeera",
+      "Zeratul",
+      "Greymane"
+    ],
+    "Counters": [
+      "Tychus",
+      "Artanis",
+      "Guldan",
+      "Kaelthas",
+      "Malthael",
+      "Leoric"
+    ],
+    "GoodMaps": [
+      "BlackheartsBay",
+      "BraxisHoldout",
+      "Hanamura",
+      "HauntedMines",
+      "InfernalShrines",
+      "TombOfTheSpiderQueen",
+      "VolskayaFoundry"
+    ],
+    "WeakMaps": [
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Auriel",
+    "Role": "Healer",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Kharazim",
+      "Tassadar",
+      "Cho",
+      "Guldan",
+      "Lunara",
+      "Zuljin",
+      "Valla",
+      "Cassia",
+      "Malthael",
+      "Sonya"
+    ],
+    "Strongs": [],
+    "Counters": [
+      "TheButcher",
+      "Tyrande",
+      "Kerrigan"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "DragonShire",
+      "HauntedMines",
+      "InfernalShrines",
+      "TombOfTheSpiderQueen"
+    ],
+    "WeakMaps": [
+      "BlackheartsBay",
+      "SkyTemple",
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Azmodan",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Jaina",
+      "Johanna",
+      "Malfurion"
+    ],
+    "Strongs": [
+      "Abathur"
+    ],
+    "Counters": [
+      "Artanis",
+      "Anubarak",
+      "Diablo",
+      "Malthael",
+      "Muradin",
+      "Sonya",
+      "TheButcher"
+    ],
+    "GoodMaps": [
+      "TombOfTheSpiderQueen",
+      "InfernalShrines",
+      "WarheadJunction"
+    ],
+    "WeakMaps": [
+      "BraxisHoldout"
+    ]
+  },
+  {
+    "Name": "Blaze",
+    "Role": "Tank",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Arthas",
+      "Kerrigan",
+      "Malfurion",
+      "Fenix",
+      "Kelthuzad"
+    ],
+    "Strongs": [],
+    "Counters": [
+      "Leoric",
+      "Lunara",
+      "Malthael",
+      "Nova",
+      "Tracer",
+      "Valla",
+      "Tychus"
+    ],
+    "GoodMaps": [
+      "SkyTemple",
+      "InfernalShrines",
+      "TowersOfDoom",
+      "VolskayaFoundry"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Brightwing",
+    "Role": "Healer",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Tassadar",
+      "Dehaka",
+      "Falstad",
+      "TheLostVikings"
+    ],
+    "Strongs": [
+      "Illidan",
+      "ETC",
+      "Genji",
+      "Sonya",
+      "TheButcher",
+      "Tracer",
+      "Yrel"
+    ],
+    "Counters": [
+      "Greymane",
+      "Varian",
+      "Anubarak"
+    ],
+    "GoodMaps": [
+      "DragonShire",
+      "Hanamura",
+      "SkyTemple",
+      "TowersOfDoom",
+      "VolskayaFoundry",
+      "WarheadJunction"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity",
+      "HauntedMines",
+      "TombOfTheSpiderQueen"
+    ]
+  },
+  {
+    "Name": "Cassia",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Li_li",
+      "Johanna",
+      "Artanis",
+      "Auriel"
+    ],
+    "Strongs": [
+      "TheButcher"
+    ],
+    "Counters": [
+      "Kaelthas",
+      "Guldan",
+      "Jaina",
+      "Muradin"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "InfernalShrines",
+      "HauntedMines"
+    ],
+    "WeakMaps": [
+      "SkyTemple",
+      "TowersOfDoom",
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Chen",
+    "Role": "Tank",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Jaina",
+      "Kelthuzad",
+      "Greymane",
+      "Rehgar"
+    ],
+    "Strongs": [
+      "Lunara"
+    ],
+    "Counters": [
+      "Anubarak",
+      "Muradin",
+      "Johanna",
+      "Varian",
+      "ETC",
+      "Alarak",
+      "Stukov"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "Hanamura"
+    ],
+    "WeakMaps": [
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Cho",
+    "Role": "Bruiser",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Auriel",
+      "ETC",
+      "Rehgar",
+      "Uther",
+      "Alexstrasza",
+      "Ana"
+    ],
+    "Strongs": [
+      "Zeratul"
+    ],
+    "Counters": [
+      "Anubarak",
+      "Greymane",
+      "Kharazim",
+      "Leoric",
+      "Malthael",
+      "Raynor",
+      "Tychus"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "InfernalShrines"
+    ],
+    "WeakMaps": [
+      "DragonShire",
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Chromie",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Johanna",
+      "Thrall",
+      "Malfurion",
+      "Xul",
+      "ETC",
+      "Deckard",
+      "Arthas",
+      "Nazeebo"
+    ],
+    "Strongs": [
+      "SgtHammer",
+      "Alexstrasza",
+      "Stukov"
+    ],
+    "Counters": [
+      "Illidan",
+      "Diablo",
+      "Stitches",
+      "Tracer",
+      "Zeratul",
+      "Valeera",
+      "Nova",
+      "Greymane",
+      "Genji",
+      "Anubarak",
+      "Kerrigan"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "TowersOfDoom"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity"
+    ]
+  },
+  {
+    "Name": "Deckard",
+    "Role": "Healer",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Alarak",
+      "Arthas",
+      "Blaze",
+      "Diablo",
+      "Jaina",
+      "Johanna",
+      "Kerrigan",
+      "Kelthuzad",
+      "Tyrael",
+      "Varian",
+      "Chromie"
+    ],
+    "Strongs": [],
+    "Counters": [
+      "Alarak",
+      "Diablo",
+      "Kerrigan",
+      "Tracer",
+      "Samuro"
+    ],
+    "GoodMaps": [
+      "BattlefieldOfEternity",
+      "BraxisHoldout",
+      "HauntedMines",
+      "InfernalShrines",
+      "TombOfTheSpiderQueen"
+    ],
+    "WeakMaps": [
+      "GardenOfTerror",
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Dehaka",
+    "Role": "Tank",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Lucio",
+      "Zarya",
+      "Anubarak",
+      "Jaina",
+      "Brightwing",
+      "Xul"
+    ],
+    "Strongs": [
+      "Abathur"
+    ],
+    "Counters": [
+      "Valla",
+      "Nazeebo",
+      "Zuljin",
+      "Malthael",
+      "Ana",
+      "Lunara",
+      "Tychus"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "DragonShire",
+      "Hanamura",
+      "SkyTemple",
+      "WarheadJunction"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity",
+      "GardenOfTerror",
+      "HauntedMines",
+      "VolskayaFoundry"
+    ]
+  },
+  {
+    "Name": "Diablo",
+    "Role": "Tank",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Alexstrasza",
+      "Deckard",
+      "Jaina",
+      "Maiev",
+      "Malfurion",
+      "Medivh",
+      "Thrall",
+      "Tyrande",
+      "Rehgar"
+    ],
+    "Strongs": [
+      "Morales"
+    ],
+    "Counters": [
+      "Leoric",
+      "Malthael",
+      "Tychus",
+      "Raynor"
+    ],
+    "GoodMaps": [
+      "DragonShire",
+      "InfernalShrines",
+      "SkyTemple",
+      "TombOfTheSpiderQueen",
+      "VolskayaFoundry"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Dva",
+    "Role": "Tank",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "ETC",
+      "Diablo",
+      "Malfurion",
+      "Uther",
+      "Zarya",
+      "Maiev"
+    ],
+    "Strongs": [],
+    "Counters": [
+      "Alarak",
+      "Jaina",
+      "Zeratul",
+      "Valeera"
+    ],
+    "GoodMaps": [
+      "CursedHollow",
+      "GardenOfTerror",
+      "InfernalShrines",
+      "SkyTemple",
+      "TowersOfDoom"
+    ],
+    "WeakMaps": [
+      "BlackheartsBay",
+      "BraxisHoldout",
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "ETC",
+    "Role": "Tank",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Jaina",
+      "Nazeebo",
+      "Greymane",
+      "Kaelthas",
+      "Valla",
+      "Li-ming",
+      "TheButcher",
+      "Chromie",
+      "SgtHammer",
+      "Rehgar",
+      "Samuro",
+      "Falstad",
+      "Alarak"
+    ],
+    "Strongs": [
+      "Chen",
+      "Kerrigan"
+    ],
+    "Counters": [
+      "Brightwing",
+      "Falstad",
+      "Leoric",
+      "Lunara",
+      "Malthael",
+      "Valla",
+      "Tyrande",
+      "Stukov",
+      "Johanna",
+      "Tychus"
+    ],
+    "GoodMaps": [
+      "TombOfTheSpiderQueen"
+    ],
+    "WeakMaps": [
+      "InfernalShrines"
+    ]
+  },
+  {
+    "Name": "Falstad",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Arthas",
+      "ETC",
+      "Tassadar",
+      "Uther"
+    ],
+    "Strongs": [
+      "ETC"
+    ],
+    "Counters": [
+      "Genji",
+      "Greymane",
+      "Illidan",
+      "Nova",
+      "Valeera",
+      "Zeratul"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "CursedHollow",
+      "DragonShire",
+      "Hanamura",
+      "TowersOfDoom",
+      "WarheadJunction"
+    ],
+    "WeakMaps": [
+      "HauntedMines"
+    ]
+  },
+  {
+    "Name": "Fenix",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Johanna",
+      "Zarya",
+      "Maiev",
+      "Blaze"
+    ],
+    "Strongs": [
+      "Azmodan"
+    ],
+    "Counters": [
+      "Genji",
+      "Varian",
+      "Morales",
+      "Kerrigan",
+      "Alarak"
+    ],
+    "GoodMaps": [
+      "BlackheartsBay",
+      "BraxisHoldout",
+      "GardenOfTerror",
+      "TombOfTheSpiderQueen"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Garrosh",
+    "Role": "Tank",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Stitches",
+      "ETC",
+      "Uther",
+      "Malfurion",
+      "Alexstrasza"
+    ],
+    "Strongs": [],
+    "Counters": [
+      "Tassadar",
+      "Malthael",
+      "Tychus",
+      "Valla",
+      "Leoric"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "DragonShire",
+      "GardenOfTerror",
+      "TombOfTheSpiderQueen",
+      "TowersOfDoom",
+      "VolskayaFoundry"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Gazlowe",
+    "Role": "RangedAssasin",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Diablo",
+      "ETC",
+      "Jaina",
+      "Johanna",
+      "Kaelthas",
+      "Malfurion"
+    ],
+    "Strongs": [],
+    "Counters": [
+      "Greymane",
+      "Guldan",
+      "Kaelthas",
+      "Nazeebo",
+      "Nova"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "CursedHollow",
+      "InfernalShrines",
+      "SkyTemple",
+      "WarheadJunction"
+    ],
+    "WeakMaps": [
+      "HauntedMines",
+      "TombOfTheSpiderQueen"
+    ]
+  },
+  {
+    "Name": "Genji",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Jaina",
+      "Uther",
+      "ETC"
+    ],
+    "Strongs": [
+      "Kelthuzad",
+      "Ana",
+      "Kaelthas",
+      "Chromie",
+      "Falstad",
+      "Li-ming",
+      "Hanzo",
+      "Jaina"
+    ],
+    "Counters": [
+      "Varian",
+      "Malfurion",
+      "Lunara",
+      "Brightwing",
+      "Uther",
+      "Varian"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "CursedHollow",
+      "GardenOfTerror",
+      "Hanamura",
+      "InfernalShrines"
+    ],
+    "WeakMaps": [
+      "TombOfTheSpiderQueen"
+    ]
+  },
+  {
+    "Name": "Greymane",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Abathur",
+      "ETC",
+      "Tassadar",
+      "Uther",
+      "Morales"
+    ],
+    "Strongs": [
+      "Jaina",
+      "Valla",
+      "Chromie",
+      "Li-ming",
+      "Morales",
+      "Kaelthas",
+      "Guldan",
+      "Sylvanas"
+    ],
+    "Counters": [
+      "Arthas",
+      "Brightwing",
+      "Johanna",
+      "Muradin",
+      "TheButcher",
+      "Uther",
+      "Xul"
+    ],
+    "GoodMaps": [
+      "BattlefieldOfEternity",
+      "InfernalShrines",
+      "TombOfTheSpiderQueen"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Guldan",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "ETC",
+      "Chen",
+      "Malfurion",
+      "Brightwing",
+      "Auriel",
+      "Ana"
+    ],
+    "Strongs": [
+      "Cassia",
+      "Xul",
+      "Uther"
+    ],
+    "Counters": [
+      "Illidan",
+      "Greymane",
+      "Kerrigan",
+      "Tracer",
+      "Alarak",
+      "Anubarak",
+      "TheButcher"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "DragonShire",
+      "InfernalShrines",
+      "TombOfTheSpiderQueen",
+      "VolskayaFoundry"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Hanzo",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Zeratul",
+      "ETC",
+      "Zarya"
+    ],
+    "Strongs": [],
+    "Counters": [
+      "Genji",
+      "Zeratul",
+      "Illidan"
+    ],
+    "GoodMaps": [
+      "CursedHollow",
+      "DragonShire",
+      "GardenOfTerror",
+      "SkyTemple",
+      "TowersOfDoom"
+    ],
+    "WeakMaps": [
+      "BraxisHoldout",
+      "HauntedMines",
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Illidan",
+    "Role": "RangedAssasin",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Abathur",
+      "Medivh",
+      "Rehgar",
+      "Tassadar",
+      "Tyrael",
+      "Uther",
+      "Zarya",
+      "Kharazim",
+      "Morales"
+    ],
+    "Strongs": [
+      "Morales",
+      "Chromie",
+      "Ana",
+      "Tyrande",
+      "Valla",
+      "Li-ming",
+      "Kelthuzad",
+      "Nazeebo"
+    ],
+    "Counters": [
+      "Arthas",
+      "Brightwing",
+      "ETC",
+      "Li_li",
+      "Johanna",
+      "Muradin",
+      "Sonya",
+      "Uther",
+      "Varian",
+      "Xul"
+    ],
+    "GoodMaps": [
+      "BlackheartsBay",
+      "CursedHollow",
+      "GardenOfTerror",
+      "WarheadJunction"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity",
+      "BraxisHoldout",
+      "Hanamura",
+      "TowersOfDoom",
+      "VolskayaFoundry"
+    ]
+  },
+  {
+    "Name": "Jaina",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Arthas",
+      "ETC",
+      "Johanna",
+      "Malfurion",
+      "Muradin",
+      "TheButcher",
+      "Valeera",
+      "Varian",
+      "Xul",
+      "Nazeebo",
+      "Anubarak",
+      "Fenix"
+    ],
+    "Strongs": [
+      "Malfurion"
+    ],
+    "Counters": [
+      "Alarak",
+      "Anubarak",
+      "Chen",
+      "Genji",
+      "Nova",
+      "Tracer",
+      "Valeera",
+      "Zeratul",
+      "Greymane",
+      "Lunara",
+      "Tyrael",
+      "Kerrigan"
+    ],
+    "GoodMaps": [
+      "BattlefieldOfEternity",
+      "BraxisHoldout",
+      "CursedHollow",
+      "HauntedMines",
+      "InfernalShrines",
+      "TombOfTheSpiderQueen"
+    ],
+    "WeakMaps": [
+      "Hanamura",
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Johanna",
+    "Role": "Tank",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Guldan",
+      "Kaelthas",
+      "Jaina",
+      "Rehgar",
+      "Li-ming",
+      "Cassia",
+      "Azmodan",
+      "Malfurion",
+      "Nazeebo"
+    ],
+    "Strongs": [
+      "Zeratul",
+      "Nova",
+      "Zuljin",
+      "Illidan",
+      "Greymane",
+      "Samuro",
+      "Thrall",
+      "TheButcher",
+      "Xul",
+      "Valeera"
+    ],
+    "Counters": [
+      "Varian",
+      "Malthael",
+      "Leoric"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "DragonShire",
+      "InfernalShrines",
+      "TombOfTheSpiderQueen"
+    ],
+    "WeakMaps": [
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Junkrat",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "ETC",
+      "Muradin",
+      "Uther",
+      "Malfurion"
+    ],
+    "Strongs": [
+      "SgtHammer"
+    ],
+    "Counters": [
+      "Illidan",
+      "Sonya",
+      "Zeratul",
+      "Tyrael",
+      "Nova"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "TombOfTheSpiderQueen",
+      "InfernalShrines",
+      "TowersOfDoom",
+      "WarheadJunction"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Kaelthas",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "ETC",
+      "Arthas",
+      "Malfurion",
+      "Uther",
+      "Maiev",
+      "Johanna",
+      "Muradin",
+      "Ana",
+      "Thrall",
+      "Zarya"
+    ],
+    "Strongs": [
+      "TheLostVikings",
+      "Cassia"
+    ],
+    "Counters": [
+      "Illidan",
+      "Zeratul",
+      "Kerrigan",
+      "Tracer",
+      "Genji",
+      "Nova",
+      "Valeera",
+      "Tyrael",
+      "Greymane",
+      "Anubarak"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "DragonShire",
+      "InfernalShrines",
+      "TombOfTheSpiderQueen",
+      "TowersOfDoom",
+      "VolskayaFoundry"
+    ],
+    "WeakMaps": [
+      "WarheadJunction",
+      "BlackheartsBay"
+    ]
+  },
+  {
+    "Name": "Kelthuzad",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Arthas",
+      "Johanna",
+      "Malfurion",
+      "TheButcher",
+      "Valeera",
+      "Varian",
+      "Xul",
+      "Deckard",
+      "Blaze"
+    ],
+    "Strongs": [
+      "SgtHammer"
+    ],
+    "Counters": [
+      "Anubarak",
+      "Chen",
+      "Genji",
+      "Nova",
+      "Samuro",
+      "Tracer",
+      "Valeera",
+      "Zeratul",
+      "Maiev",
+      "Illidan"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "TowersOfDoom"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Kerrigan",
+    "Role": "RangedAssasin",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Tyrael",
+      "Uther",
+      "Maiev",
+      "Tyrande",
+      "Abathur",
+      "Anubarak",
+      "Tassadar",
+      "Xul",
+      "Arthas"
+    ],
+    "Strongs": [
+      "Morales",
+      "Guldan",
+      "Malfurion",
+      "Kaelthas",
+      "Chromie",
+      "Jaina"
+    ],
+    "Counters": [
+      "Tyrael",
+      "Uther",
+      "Maiev",
+      "Auriel",
+      "ETC"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "DragonShire",
+      "InfernalShrines",
+      "TombOfTheSpiderQueen",
+      "VolskayaFoundry"
+    ],
+    "WeakMaps": [
+      "WarheadJunction",
+      "BlackheartsBay"
+    ]
+  },
+  {
+    "Name": "Kharazim",
+    "Role": "Healer",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"Muradin\",\"ETC\",\"Tassadar\",\"Zarya\",\"Varian\",\"Illidan\",\"TheButcher\"]",
+    "Strongs": "[\"Cho\"]",
+    "Counters": "[\"Alarak\",\"Muradin\",\"Johanna\",\"Cassia\",\"Li_li\"]",
+    "GoodMaps": [
+      "BattlefieldOfEternity",
+      "SkyTemple",
+      "TowersOfDoom"
+    ],
+    "WeakMaps": [
+      "BraxisHoldout",
+      "HauntedMines",
+      "TombOfTheSpiderQueen"
+    ]
+  },
+  {
+    "Name": "Leoric",
+    "Role": "Tank",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"Jaina\",\"Kaelthas\",\"Malfurion\",\"Stukov\"]",
+    "Strongs": "[\"Stitches\",\"Cho\",\"Diablo\",\"Garrosh\",\"Muradin\",\"Arthas\",\"Johanna\",\"Azmodan\"]",
+    "Counters": "[\"Illidan\",\"Tracer\",\"Valla\",\"Lunara\",\"Raynor\"]",
+    "GoodMaps": [
+      "BraxisHoldout",
+      "GardenOfTerror",
+      "TombOfTheSpiderQueen"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity"
+    ]
+  },
+  {
+    "Name": "Li_li",
+    "Role": "Healer",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Rehgar\",\"Brightwing\",\"Uther\",\"Malfurion\",\"Cassia\"]",
+    "Strongs": "[\"Zuljin\",\"Illidan\",\"TheButcher\",\"Kharazim\",\"Tracer\"]",
+    "Counters": "[\"Valeera\",\"Zeratul\",\"Chromie\",\"Raynor\",\"Cassia\"]",
+    "GoodMaps": [
+      "CursedHollow",
+      "SkyTemple",
+      "WarheadJunction"
+    ],
+    "WeakMaps": [
+      "BraxisHoldout",
+      "Hanamura",
+      "HauntedMines",
+      "TombOfTheSpiderQueen"
+    ]
+  },
+  {
+    "Name": "Li-ming",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Arthas\",\"ETC\",\"Johanna\",\"Malfurion\",\"Valeera\",\"Varian\",\"Xul\",\"Ana\"]",
+    "Strongs": "[\"SgtHammer\",\"TheLostVikings\",\"Malfurion\",\"Murky\"]",
+    "Counters": "[\"Anubarak\",\"Chen\",\"Genji\",\"Samuro\",\"Tracer\",\"Valeera\",\"Zeratul\",\"Greymane\",\"Illidan\"]",
+    "GoodMaps": [
+      "BattlefieldOfEternity",
+      "CursedHollow",
+      "InfernalShrines"
+    ],
+    "WeakMaps": [
+      "BlackheartsBay"
+    ]
+  },
+  {
+    "Name": "Lucio",
+    "Role": "Healer",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Arthas\",\"Diablo\",\"Greymane\",\"Valla\",\"Zuljin\",\"Tracer\"]",
+    "Strongs": [],
+    "Counters": [
+      "Varian",
+      "Valeera",
+      "Zeratul"
+    ],
+    "GoodMaps": [
+      "BlackheartsBay",
+      "DragonShire",
+      "Hanamura"
+    ],
+    "WeakMaps": [
+      "BraxisHoldout"
+    ]
+  },
+  {
+    "Name": "Lunara",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Arthas\",\"Muradin\",\"Jaina\",\"Auriel\",\"ETC\"]",
+    "Strongs": "[\"Malthael\",\"Ragnaros\",\"Uther\",\"Jaina\",\"Dehaka\",\"Auriel\",\"Leoric\",\"Sylvanas\"]",
+    "Counters": "[\"Illidan\",\"Genji\",\"Malfurion\",\"Stukov\",\"Chen\"]",
+    "GoodMaps": [
+      "BattlefieldOfEternity"
+    ],
+    "WeakMaps": [
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Maiev",
+    "Role": "RangedAssasin",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"Arthas\",\"Dehaka\",\"Diablo\",\"ETC\",\"Guldan\",\"Jaina\",\"Johanna\",\"Kaelthas\",\"Lucio\",\"Stukov\",\"Tyrael\",\"Dva\"]",
+    "Strongs": "[\"Kelthuzad\"]",
+    "Counters": "[\"Arthas\",\"Diablo\",\"ETC\",\"Lucio\",\"Johanna\"]",
+    "GoodMaps": [],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Malfurion",
+    "Role": "Healer",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Blaze\",\"Chromie\",\"Jaina\",\"Guldan\",\"Kaelthas\",\"Kelthuzad\",\"Nazeebo\",\"Garrosh\",\"Johanna\",\"Xul\",\"Valla\",\"Alarak\",\"Ragnaros\"]",
+    "Strongs": [],
+    "Counters": "[\"Alarak\",\"Anubarak\",\"Artanis\",\"Jaina\",\"Kerrigan\",\"Tracer\",\"Diablo\",\"Greymane\",\"Li-ming\"]",
+    "GoodMaps": [
+      "BraxisHoldout",
+      "BattlefieldOfEternity",
+      "InfernalShrines",
+      "GardenOfTerror"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Malthael",
+    "Role": "RangedAssasin",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"ETC\",\"Johanna\",\"Tassadar\",\"Uther\",\"Ana\",\"Auriel\",\"Arthas\"]",
+    "Strongs": "[\"Diablo\",\"Stitches\",\"Cho\",\"Garrosh\",\"Johanna\",\"Arthas\",\"Dehaka\",\"ETC\",\"Muradin\",\"Uther\",\"Blaze\",\"Anubarak\",\"Azmodan\"]",
+    "Counters": "[\"Falstad\",\"Lunara\",\"Tracer\",\"Valla\",\"Zuljin\"]",
+    "GoodMaps": [
+      "BattlefieldOfEternity",
+      "GardenOfTerror"
+    ],
+    "WeakMaps": [
+      "BraxisHoldout"
+    ]
+  },
+  {
+    "Name": "Medivh",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Illidan\",\"Greymane\",\"Genji\",\"Tracer\",\"Zuljin\",\"Thrall\",\"Sonya\",\"TheButcher\",\"Stitches\"]",
+    "Strongs": "[\"Abathur\"]",
+    "Counters": [
+      "Guldan",
+      "Lunara",
+      "Malfurion"
+    ],
+    "GoodMaps": [
+      "CursedHollow",
+      "TowersOfDoom",
+      "TombOfTheSpiderQueen"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity",
+      "BraxisHoldout"
+    ]
+  },
+  {
+    "Name": "Morales",
+    "Role": "Healer",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Zuljin\",\"Valla\",\"Raynor\",\"SgtHammer\",\"TheButcher\",\"Varian\",\"Sonya\",\"Illidan\",\"Tychus\",\"Cho\",\"Greymane\",\"Thrall\",\"Guldan\"]",
+    "Strongs": [],
+    "Counters": "[\"Alarak\",\"ETC\",\"Kerrigan\",\"Zeratul\",\"Tracer\",\"Illidan\",\"TheButcher\",\"Anubarak\",\"Varian\",\"Greymane\",\"Diablo\",\"Stitches\",\"Valeera\",\"Samuro\",\"Tyrael\",\"Dehaka\",\"Thrall\",\"Nova\"]",
+    "GoodMaps": [
+      "BraxisHoldout",
+      "GardenOfTerror",
+      "Hanamura",
+      "SkyTemple",
+      "VolskayaFoundry"
+    ],
+    "WeakMaps": [
+      "TombOfTheSpiderQueen"
+    ]
+  },
+  {
+    "Name": "Muradin",
+    "Role": "Tank",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"Kerrigan\",\"Tyrande\",\"Jaina\",\"Rehgar\",\"Kaelthas\",\"Alexstrasza\"]",
+    "Strongs": "[\"Zeratul\",\"Illidan\",\"Kerrigan\",\"Morales\",\"Nova\"]",
+    "Counters": "[\"Tychus\",\"Alarak\",\"Jaina\",\"Malthael\",\"Leoric\"]",
+    "GoodMaps": [
+      "GardenOfTerror",
+      "DragonShire",
+      "InfernalShrines"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Murky",
+    "Role": "RangedAssasin",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Abathur",
+      "Tassadar",
+      "Zarya"
+    ],
+    "Strongs": [],
+    "Counters": "[\"Nova\",\"Tychus\",\"Tracer\",\"Zarya\",\"Li-ming\"]",
+    "GoodMaps": [
+      "GardenOfTerror"
+    ],
+    "WeakMaps": [
+      "BraxisHoldout",
+      "BlackheartsBay",
+      "VolskayaFoundry",
+      "TombOfTheSpiderQueen"
+    ]
+  },
+  {
+    "Name": "Nazeebo",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Jaina\",\"ETC\",\"Muradin\",\"Malfurion\",\"Johanna\",\"Chromie\"]",
+    "Strongs": "[\"Uther\",\"SgtHammer\"]",
+    "Counters": "[\"Alarak\",\"Tracer\",\"Zarya\",\"Illidan\"]",
+    "GoodMaps": [
+      "CursedHollow",
+      "TowersOfDoom",
+      "VolskayaFoundry",
+      "TombOfTheSpiderQueen"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity",
+      "BlackheartsBay",
+      "Hanamura"
+    ]
+  },
+  {
+    "Name": "Nova",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": [
+      "ETC",
+      "Tyrael",
+      "Tyrande",
+      "Xul"
+    ],
+    "Strongs": "[\"Kaelthas\",\"Sylvanas\",\"Chromie\",\"Jaina\",\"Junkrat\",\"Abathur\",\"Valla\",\"Morales\"]",
+    "Counters": "[\"Chen\",\"Illidan\",\"Johanna\",\"Muradin\",\"Tyrael\",\"Tassadar\",\"Zarya\"]",
+    "GoodMaps": [
+      "WarheadJunction"
+    ],
+    "WeakMaps": [
+      "BraxisHoldout",
+      "InfernalShrines",
+      "VolskayaFoundry"
+    ]
+  },
+  {
+    "Name": "Probius",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"ETC\",\"Diablo\",\"Brightwing\",\"Malfurion\",\"Arthas\"]",
+    "Strongs": [],
+    "Counters": "[\"Kerrigan\",\"Alarak\",\"Zeratul\",\"Tracer\",\"Valeera\",\"TheButcher\"]",
+    "GoodMaps": [
+      "CursedHollow",
+      "SkyTemple",
+      "InfernalShrines",
+      "TowersOfDoom",
+      "Hanamura",
+      "VolskayaFoundry"
+    ],
+    "WeakMaps": [
+      "BlackheartsBay",
+      "HauntedMines",
+      "TombOfTheSpiderQueen"
+    ]
+  },
+  {
+    "Name": "Ragnaros",
+    "Role": "RangedAssasin",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Arthas",
+      "Johanna",
+      "Malfurion",
+      "Muradin"
+    ],
+    "Strongs": [],
+    "Counters": "[\"Chen\",\"Lunara\",\"Nova\",\"Tracer\",\"Zuljin\",\"Valla\"]",
+    "GoodMaps": [
+      "BraxisHoldout",
+      "InfernalShrines",
+      "TombOfTheSpiderQueen"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Raynor",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Illidan\",\"Kharazim\",\"Leoric\",\"Morales\",\"Arthas\"]",
+    "Strongs": "[\"Leoric\",\"Cho\",\"ETC\"]",
+    "Counters": "[\"Arthas\",\"Johanna\",\"Zeratul\",\"Cassia\",\"Li_li\",\"Illidan\",\"Artanis\"]",
+    "GoodMaps": [
+      "TowersOfDoom",
+      "InfernalShrines",
+      "TombOfTheSpiderQueen"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Rehgar",
+    "Role": "Healer",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"Illidan\",\"ETC\",\"Kerrigan\",\"Thrall\",\"Sonya\",\"Diablo\",\"TheButcher\",\"Anubarak\",\"Cho\",\"Chen\",\"Zuljin\"]",
+    "Strongs": [],
+    "Counters": "[\"Muradin\",\"Lunara\",\"Illidan\",\"Varian\",\"Alarak\",\"Ana\"]",
+    "GoodMaps": [
+      "VolskayaFoundry",
+      "BlackheartsBay",
+      "InfernalShrines",
+      "TombOfTheSpiderQueen"
+    ],
+    "WeakMaps": [
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Rexxar",
+    "Role": "Tank",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "ETC",
+      "Jaina",
+      "Malfurion"
+    ],
+    "Strongs": [],
+    "Counters": [
+      "Kaelthas",
+      "Tychus",
+      "Artanis"
+    ],
+    "GoodMaps": [
+      "BraxisHoldout",
+      "DragonShire",
+      "BlackheartsBay"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity",
+      "SkyTemple",
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Samuro",
+    "Role": "RangedAssasin",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"Azmodan\",\"SgtHammer\",\"Gazlowe\",\"ETC\",\"Stukov\"]",
+    "Strongs": "[\"Chromie\",\"Morales\",\"TheLostVikings\",\"Li-ming\"]",
+    "Counters": "[\"Alarak\",\"Kaelthas\",\"Tassadar\",\"Zarya\",\"Hanzo\",\"Johanna\",\"Arthas\"]",
+    "GoodMaps": [
+      "BattlefieldOfEternity",
+      "BlackheartsBay",
+      "CursedHollow"
+    ],
+    "WeakMaps": [
+      "BraxisHoldout",
+      "InfernalShrines",
+      "TombOfTheSpiderQueen"
+    ]
+  },
+  {
+    "Name": "SgtHammer",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"ETC\",\"Johanna\",\"Morales\",\"Tassadar\",\"Auriel\"]",
+    "Strongs": [],
+    "Counters": "[\"Artanis\",\"Chromie\",\"Kelthuzad\",\"Stitches\",\"Li-ming\",\"Junkrat\",\"Nazeebo\"]",
+    "GoodMaps": [
+      "BraxisHoldout",
+      "BattlefieldOfEternity",
+      "InfernalShrines"
+    ],
+    "WeakMaps": [
+      "WarheadJunction",
+      "TombOfTheSpiderQueen",
+      "HauntedMines",
+      "Hanamura",
+      "GardenOfTerror",
+      "BlackheartsBay"
+    ]
+  },
+  {
+    "Name": "Sonya",
+    "Role": "Tank",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"Jaina\",\"Maiev\",\"Rehgar\",\"Tassadar\",\"Zarya\",\"Abathur\",\"Morales\",\"Medivh\",\"Uther\",\"Auriel\"]",
+    "Strongs": "[\"Illidan\",\"Nazeebo\"]",
+    "Counters": [
+      "Brightwing",
+      "ETC",
+      "Lunara",
+      "Malthael",
+      "Muradin",
+      "Uther"
+    ],
+    "GoodMaps": [
+      "BattlefieldOfEternity",
+      "BlackheartsBay",
+      "InfernalShrines",
+      "CursedHollow",
+      "GardenOfTerror"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Stitches",
+    "Role": "Tank",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"Uther\",\"Jaina\",\"Xul\",\"Tracer\",\"Medivh\",\"Tyrande\",\"Alexstrasza\",\"Malfurion\",\"Garrosh\"]",
+    "Strongs": "[\"SgtHammer\",\"Morales\",\"Stukov\"]",
+    "Counters": "[\"Leoric\",\"Anubarak\",\"Dva\",\"Murky\",\"Malthael\",\"Tychus\"]",
+    "GoodMaps": [
+      "VolskayaFoundry",
+      "DragonShire",
+      "InfernalShrines"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity",
+      "BlackheartsBay",
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Stukov",
+    "Role": "Healer",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Raynor\",\"ETC\",\"SgtHammer\",\"Leoric\",\"Maiev\",\"Samuro\"]",
+    "Strongs": "[\"Chen\",\"ETC\",\"Dva\"]",
+    "Counters": "[\"Anubarak\",\"Uther\",\"Genji\",\"Chromie\",\"Zeratul\",\"Stitches\"]",
+    "GoodMaps": [
+      "BraxisHoldout",
+      "CursedHollow",
+      "HauntedMines"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity"
+    ]
+  },
+  {
+    "Name": "Sylvanas",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Tassadar\",\"Jaina\",\"Valla\",\"Tyrande\"]",
+    "Strongs": [],
+    "Counters": "[\"Chen\",\"Diablo\",\"Genji\",\"Nova\",\"TheButcher\",\"Valeera\",\"Zeratul\",\"Varian\",\"Greymane\",\"Lunara\"]",
+    "GoodMaps": [
+      "BraxisHoldout",
+      "BattlefieldOfEternity",
+      "HauntedMines",
+      "TombOfTheSpiderQueen",
+      "VolskayaFoundry"
+    ],
+    "WeakMaps": [
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Tassadar",
+    "Role": "Bruiser",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Artanis\",\"Illidan\",\"Kerrigan\",\"Valla\",\"Tracer\",\"Zuljin\",\"Greymane\",\"Sonya\",\"Thrall\"]",
+    "Strongs": "[\"Nova\",\"Zeratul\",\"Samuro\",\"Valeera\"]",
+    "Counters": "[\"Alarak\",\"Varian\",\"Chen\"]",
+    "GoodMaps": [
+      "BraxisHoldout",
+      "HauntedMines",
+      "InfernalShrines",
+      "TowersOfDoom"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity"
+    ]
+  },
+  {
+    "Name": "TheButcher",
+    "Role": "RangedAssasin",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"Abathur\",\"Tyrande\",\"Uther\",\"Tyrael\",\"Morales\",\"ETC\",\"Medivh\",\"Jaina\",\"Rehgar\",\"Kharazim\"]",
+    "Strongs": "[\"Morales\",\"Guldan\",\"Valla\"]",
+    "Counters": "[\"Johanna\",\"Zeratul\",\"Uther\",\"Brightwing\",\"Cassia\",\"Li_li\"]",
+    "GoodMaps": [
+      "DragonShire",
+      "GardenOfTerror",
+      "SkyTemple",
+      "TombOfTheSpiderQueen",
+      "WarheadJunction",
+      "VolskayaFoundry",
+      "TowersOfDoom"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity",
+      "BlackheartsBay",
+      "BraxisHoldout"
+    ]
+  },
+  {
+    "Name": "TheLostVikings",
+    "Role": "RangedAssasin",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"ETC\",\"Morales\",\"Brightwing\"]",
+    "Strongs": [],
+    "Counters": "[\"Zeratul\",\"Nova\",\"Kaelthas\",\"Li-ming\",\"Tracer\",\"Samuro\"]",
+    "GoodMaps": [
+      "CursedHollow",
+      "GardenOfTerror",
+      "SkyTemple"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity",
+      "TombOfTheSpiderQueen"
+    ]
+  },
+  {
+    "Name": "Thrall",
+    "Role": "RangedAssasin",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"Diablo\",\"Rehgar\",\"Guldan\",\"Abathur\",\"Medivh\",\"Kaelthas\",\"Tassadar\",\"Morales\",\"Kharazim\"]",
+    "Strongs": "[\"Morales\"]",
+    "Counters": "[\"Johanna\",\"Falstad\",\"Muradin\",\"Xul\",\"Brightwing\",\"Li_li\"]",
+    "GoodMaps": [
+      "BattlefieldOfEternity",
+      "BlackheartsBay",
+      "BraxisHoldout",
+      "HauntedMines",
+      "SkyTemple",
+      "VolskayaFoundry"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Tracer",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Tassadar\",\"Nazeebo\",\"Guldan\",\"Zarya\"]",
+    "Strongs": "[\"Kelthuzad\",\"Ana\",\"Deckard\",\"Morales\",\"Li-ming\",\"Chromie\",\"Jaina\",\"Malthael\",\"Alexstrasza\",\"TheLostVikings\",\"Leoric\",\"Nazeebo\",\"Ragnaros\",\"Malfurion\",\"Probius\",\"Junkrat\"]",
+    "Counters": "[\"Zuljin\",\"Varian\",\"Valla\",\"Brightwing\",\"Valeera\",\"Li_li\"]",
+    "GoodMaps": [
+      "CursedHollow",
+      "DragonShire",
+      "SkyTemple",
+      "VolskayaFoundry",
+      "WarheadJunction"
+    ],
+    "WeakMaps": [
+      "InfernalShrines",
+      "TombOfTheSpiderQueen"
+    ]
+  },
+  {
+    "Name": "Tychus",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Anubarak\",\"Dehaka\",\"Tassadar\",\"Uther\",\"Morales\"]",
+    "Strongs": "[\"Stitches\",\"Diablo\",\"Cho\",\"Muradin\",\"Dehaka\",\"Blaze\",\"Garrosh\",\"ETC\",\"Chen\"]",
+    "Counters": "[\"Anubarak\",\"Rexxar\",\"Lucio\",\"Genji\",\"Valeera\"]",
+    "GoodMaps": [
+      "CursedHollow",
+      "TowersOfDoom"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity",
+      "SkyTemple"
+    ]
+  },
+  {
+    "Name": "Tyrael",
+    "Role": "Tank",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"ETC\",\"Kerrigan\",\"Illidan\",\"Malfurion\",\"TheButcher\",\"Anubarak\",\"Zuljin\",\"Rehgar\",\"Abathur\",\"Maiev\",\"Kharazim\"]",
+    "Strongs": "[\"Kaelthas\",\"Nova\",\"Jaina\",\"Morales\"]",
+    "Counters": [
+      "Zeratul",
+      "Varian",
+      "Tychus"
+    ],
+    "GoodMaps": [
+      "CursedHollow",
+      "SkyTemple",
+      "WarheadJunction",
+      "TowersOfDoom"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Tyrande",
+    "Role": "Healer",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Diablo\",\"Stitches\",\"Varian\",\"Xul\",\"Kerrigan\",\"TheButcher\",\"Muradin\",\"Arthas\",\"Jaina\",\"Valla\",\"Greymane\",\"Nova\"]",
+    "Strongs": "[\"ETC\",\"Abathur\"]",
+    "Counters": "[\"Johanna\",\"Tyrael\",\"Zeratul\",\"Illidan\",\"Kerrigan\"]",
+    "GoodMaps": [
+      "BattlefieldOfEternity",
+      "CursedHollow",
+      "DragonShire",
+      "TombOfTheSpiderQueen"
+    ],
+    "WeakMaps": [
+      "BraxisHoldout"
+    ]
+  },
+  {
+    "Name": "Uther",
+    "Role": "Healer",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"Kerrigan\",\"Illidan\",\"TheButcher\",\"Zuljin\",\"Genji\",\"Sonya\",\"Greymane\",\"Zeratul\",\"Garrosh\"]",
+    "Strongs": "[\"Illidan\",\"Genji\",\"TheButcher\",\"Chen\",\"Zeratul\",\"Kerrigan\",\"Sonya\",\"Greymane\"]",
+    "Counters": "[\"Guldan\",\"Lunara\",\"Malthael\",\"Nazeebo\",\"Sylvanas\",\"Zagara\"]",
+    "GoodMaps": [],
+    "WeakMaps": [
+      "BraxisHoldout",
+      "InfernalShrines",
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Valeera",
+    "Role": "RangedAssasin",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"Tassadar\",\"Medivh\",\"Thrall\",\"Jaina\",\"Abathur\",\"Varian\"]",
+    "Strongs": "[\"Sylvanas\",\"Kelthuzad\",\"Kaelthas\",\"Chromie\",\"Li-ming\",\"Jaina\",\"Zagara\",\"Falstad\",\"Morales\",\"Tracer\",\"Valla\",\"Probius\"]",
+    "Counters": "[\"ETC\",\"Dehaka\",\"Tassadar\",\"Brightwing\",\"Arthas\",\"Johanna\"]",
+    "GoodMaps": [
+      "BlackheartsBay",
+      "CursedHollow",
+      "GardenOfTerror",
+      "SkyTemple",
+      "WarheadJunction"
+    ],
+    "WeakMaps": [
+      "BraxisHoldout",
+      "TombOfTheSpiderQueen"
+    ]
+  },
+  {
+    "Name": "Valla",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Arthas\",\"ETC\",\"Tassadar\",\"Uther\",\"Morales\",\"Auriel\",\"Sylvanas\",\"Malfurion\"]",
+    "Strongs": "[\"Leoric\",\"Malthael\",\"Ragnaros\",\"ETC\"]",
+    "Counters": "[\"Greymane\",\"Illidan\",\"Nova\",\"TheButcher\",\"Valeera\",\"Zeratul\",\"Johanna\",\"Cassia\",\"Genji\",\"Artanis\",\"Li_li\",\"Varian\"]",
+    "GoodMaps": [
+      "BattlefieldOfEternity"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Varian",
+    "Role": "Bruiser",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"ETC\",\"Jaina\",\"Greymane\",\"Uther\",\"Li-ming\",\"Morales\",\"Abathur\",\"Kharazim\",\"Valeera\"]",
+    "Strongs": "[\"Genji\",\"Fenix\",\"Morales\",\"Tassadar\",\"Sylvanas\",\"Zarya\",\"Jaina\",\"Artanis\",\"Zuljin\",\"Guldan\",\"Tracer\",\"Li-ming\",\"Auriel\",\"Lucio\",\"Valla\",\"Kaelthas\",\"Greymane\"]",
+    "Counters": "[\"Alarak\",\"Lunara\",\"Muradin\",\"Valla\",\"Brightwing\",\"Li_li\",\"Arthas\"]",
+    "GoodMaps": [
+      "BattlefieldOfEternity",
+      "DragonShire",
+      "GardenOfTerror",
+      "Hanamura"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Xul",
+    "Role": "RangedAssasin",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"Arthas\",\"Jaina\",\"Nazeebo\",\"Chromie\",\"Tyrande\",\"Li-ming\",\"Dehaka\",\"Malfurion\",\"Kerrigan\"]",
+    "Strongs": "[\"Illidan\",\"Thrall\",\"Greymane\"]",
+    "Counters": "[\"Guldan\",\"Kaelthas\",\"Dehaka\",\"Johanna\",\"Jaina\"]",
+    "GoodMaps": [
+      "BlackheartsBay",
+      "DragonShire",
+      "InfernalShrines",
+      "TombOfTheSpiderQueen",
+      "VolskayaFoundry"
+    ],
+    "WeakMaps": [
+      "BattlefieldOfEternity",
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Yrel",
+    "Role": "Tank",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": [
+      "Arthas",
+      "Cassia",
+      "Malfurion",
+      "Jaina"
+    ],
+    "Strongs": "[\"Alexstrasza\"]",
+    "Counters": "[\"Garrosh\",\"Johanna\",\"Illidan\",\"Genji\",\"Brightwing\",\"Muradin\"]",
+    "GoodMaps": [
+      "BraxisHoldout",
+      "CursedHollow",
+      "InfernalShrines",
+      "SkyTemple",
+      "WarheadJunction",
+      "VolskayaFoundry"
+    ],
+    "WeakMaps": [
+      "TombOfTheSpiderQueen"
+    ]
+  },
+  {
+    "Name": "Zagara",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"ETC\",\"Diablo\",\"Zarya\",\"Brightwing\"]",
+    "Strongs": "[\"SgtHammer\"]",
+    "Counters": "[\"Kerrigan\",\"Alarak\",\"Nova\",\"Zeratul\",\"Valeera\"]",
+    "GoodMaps": [
+      "BraxisHoldout",
+      "CursedHollow",
+      "GardenOfTerror",
+      "SkyTemple",
+      "WarheadJunction",
+      "TowersOfDoom",
+      "Hanamura"
+    ],
+    "WeakMaps": []
+  },
+  {
+    "Name": "Zarya",
+    "Role": "Tank",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"ETC\",\"Muradin\",\"Johanna\",\"Chen\",\"Tracer\",\"Illidan\",\"Zuljin\",\"Artanis\",\"Dva\",\"Fenix\",\"Kerrigan\",\"Sonya\",\"Varian\",\"Maiev\",\"Hanzo\",\"Auriel\",\"Thrall\",\"Greymane\"]",
+    "Strongs": [],
+    "Counters": "[\"Alarak\",\"Illidan\",\"Sylvanas\",\"Jaina\",\"Varian\",\"Brightwing\"]",
+    "GoodMaps": [
+      "BraxisHoldout",
+      "CursedHollow",
+      "InfernalShrines",
+      "TowersOfDoom",
+      "Hanamura",
+      "HauntedMines"
+    ],
+    "WeakMaps": [
+      "WarheadJunction"
+    ]
+  },
+  {
+    "Name": "Zeratul",
+    "Role": "RangedAssasin",
+    "AttackType": "Melee",
+    "CrowdControl": [],
+    "Synergizes": "[\"Abathur\",\"Diablo\",\"Jaina\",\"Uther\"]",
+    "Strongs": "[\"Sylvanas\",\"Valla\",\"Chromie\",\"Morales\",\"Kaelthas\",\"Kelthuzad\",\"Jaina\",\"Abathur\",\"TheLostVikings\",\"Zagara\",\"Stukov\",\"Probius\",\"Falstad\",\"Tyrande\",\"Nazeebo\",\"Ana\"]",
+    "Counters": "[\"Artanis\",\"Arthas\",\"Brightwing\",\"Cho\",\"Johanna\",\"Sonya\",\"Uther\",\"Varian\",\"Tassadar\",\"Muradin\",\"Chen\",\"ETC\",\"Tyrael\"]",
+    "GoodMaps": [
+      "BlackheartsBay"
+    ],
+    "WeakMaps": [
+      "BraxisHoldout",
+      "InfernalShrines",
+      "Hanamura"
+    ]
+  },
+  {
+    "Name": "Zuljin",
+    "Role": "RangedAssasin",
+    "AttackType": "Distance",
+    "CrowdControl": [],
+    "Synergizes": "[\"Tyrael\",\"ETC\",\"Tassadar\",\"Uther\",\"Maiev\",\"Auriel\",\"Zarya\",\"Medivh\",\"Rehgar\",\"Lucio\"]",
+    "Strongs": "[\"Ragnaros\",\"Tracer\",\"Malthael\"]",
+    "Counters": "[\"ETC\",\"Dehaka\",\"Diablo\",\"TheButcher\",\"Zeratul\",\"Li_li\",\"Johanna\",\"Cassia\",\"Varian\"]",
+    "GoodMaps": [],
+    "WeakMaps": []
+  }
+]

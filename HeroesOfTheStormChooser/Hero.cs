@@ -1,18 +1,33 @@
 ﻿using HeroesOfTheStormChooser.Enums;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HeroesOfTheStormChooser
 {
     public class Hero
     {
+        public Hero()
+        {
+            Name = string.Empty;
+            Initialize();
+        }
+
         public Hero(string name)
         {
             Name = name;
+            Initialize();
+        }
+
+        private void Initialize()
+        {
+            Synergizes = new List<string>();
+            Strongs = new List<string>();
+            Counters = new List<string>();
+            GoodMaps = new List<string>();
+            WeakMaps = new List<string>();
+            CrowdControls = new List<string>();
+
             Points = 0;
+
         }
 
         public string Name { get; set; }

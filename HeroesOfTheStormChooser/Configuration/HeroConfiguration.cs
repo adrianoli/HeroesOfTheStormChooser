@@ -1,4 +1,5 @@
 ﻿using HeroesOfTheStormChooser.Configuration.Logic;
+using HeroesOfTheStormChooser.Enums;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,6 @@ namespace HeroesOfTheStormChooser.Configuration
     public partial class HeroConfiguration : Form
     {
         private HeroConfigurationLogic _heroConfigurationLogic;
-        Hero _hero;
         dynamic _jsonObject;
 
         public HeroConfiguration()
@@ -24,19 +24,68 @@ namespace HeroesOfTheStormChooser.Configuration
             InitializeComponent();
         }
 
-        public HeroConfiguration(Hero hero, object jsonObject) : this()
+        public Hero HeroObj { get; private set; }
+
+        public HeroConfiguration(object jsonObject) : this()
         {
+            Hero hero = new Hero();
+
             _heroConfigurationLogic = new HeroConfigurationLogic(hero, jsonObject);
-            _hero = hero;
+            HeroObj = hero;
             _jsonObject = jsonObject;
 
             Initialize();
+            InitializeFormToAddMode();
+        }
+
+        public HeroConfiguration(Hero hero, object jsonObject) : this()
+        {
+            _heroConfigurationLogic = new HeroConfigurationLogic(hero, jsonObject);
+            HeroObj = hero;
+            _jsonObject = jsonObject;
+
+            Initialize();
+            InitializeFormToSaveMode();
         }
 
         private void Initialize()
         {
+            uiCmbRole.Items.AddRange(typeof(eRole).GetEnumNames());
+        }
+
+        private void InitializeFormToSaveMode()
+        {
+            uiBtnAdd.Visible = false;
+            uiLblPathPicture.Visible = false;
+            uiTxtPathToPicture.Visible = false;
+            uiBtnBrowse.Visible = false;
+
+            uiTxtName.Enabled = false;
+
+            for(int i = 0; i < uiCmbRole.Items.Count; i++)
+            {
+                if(uiCmbRole.Items[i].ToString().ToUpper() == HeroObj.Role.ToString().ToUpper())
+                {
+                    uiCmbRole.SelectedIndex = i;
+                    break;
+                }
+            }
+            
             uiPbPhoto.Image = _heroConfigurationLogic.GetHeroImage();
             uiTxtName.Text = _heroConfigurationLogic.GetHeroName();
+        }
+
+        private void InitializeFormToAddMode()
+        {
+            uiBtnSave.Visible = false;
+            uiBtnCounters.Visible = false;
+            uiBtnCrowdControl.Visible = false;
+            uiBtnGoodMaps.Visible = false;
+            uiBtnWeakMaps.Visible = false;
+            uiBtnStrong.Visible = false;
+            uiBtnSynergizes.Visible = false;
+
+            uiCmbRole.SelectedIndex = 0;
         }
 
         private void uiBtnSynergizes_Click(object sender, EventArgs e)
@@ -45,10 +94,10 @@ namespace HeroesOfTheStormChooser.Configuration
 
             foreach (var jsonObj in _jsonObject)
             {
-                if (jsonObj.Name == _hero.Name)
+                if (jsonObj.Name == HeroObj.Name)
                 {
                     List<string> jsonSynergizes = JsonManager.GetDataListFromJson(jsonObj.Synergizes.ToString());
-                    using (var addHeroToList = new AddHeroesToList(control.Text, _hero.Name, jsonSynergizes))
+                    using (var addHeroToList = new AddHeroesToList(control.Text, HeroObj.Name, jsonSynergizes))
                     {
                         if (addHeroToList.ShowDialog() == DialogResult.OK)
                         {
@@ -67,10 +116,10 @@ namespace HeroesOfTheStormChooser.Configuration
 
             foreach (var jsonObj in _jsonObject)
             {
-                if (jsonObj.Name == _hero.Name)
+                if (jsonObj.Name == HeroObj.Name)
                 {
                     List<string> jsonStrongs = JsonManager.GetDataListFromJson(jsonObj.Strongs.ToString());
-                    using (var addHeroToList = new AddHeroesToList(control.Text, _hero.Name, jsonStrongs))
+                    using (var addHeroToList = new AddHeroesToList(control.Text, HeroObj.Name, jsonStrongs))
                     {
                         if (addHeroToList.ShowDialog() == DialogResult.OK)
                         {
@@ -89,14 +138,14 @@ namespace HeroesOfTheStormChooser.Configuration
 
             foreach (var jsonObj in _jsonObject)
             {
-                if (jsonObj.Name == _hero.Name)
+                if (jsonObj.Name == HeroObj.Name)
                 {
                     List<string> jsonCounters = JsonManager.GetDataListFromJson(jsonObj.Counters.ToString());
-                    using (var addHeroToList = new AddHeroesToList(control.Text, _hero.Name, jsonCounters))
+                    using (var addHeroToList = new AddHeroesToList(control.Text, HeroObj.Name, jsonCounters))
                     {
                         if (addHeroToList.ShowDialog() == DialogResult.OK)
                         {
-                            jsonObj.Counters = JsonConvert.SerializeObject(addHeroToList.Result);
+                            HeroObj.Counters = addHeroToList.Result;
                         }
                     }
 
@@ -124,16 +173,59 @@ namespace HeroesOfTheStormChooser.Configuration
 
         private void uiBtnSave_Click(object sender, EventArgs e)
         {
+            HeroObj.Role = (eRole)Enum.Parse(typeof(eRole), uiCmbRole.Items[uiCmbRole.SelectedIndex].ToString());
+
             string path = Directory.GetCurrentDirectory();
             string fileName = "Heroes.json";
-            string filePath = $"{path}\\{fileName}";
+            string filePath = $"{path}\\Assets\\{fileName}";
+
+            List<Hero> heroes = JsonManager.LoadHeroesJson();
+
+            for(int i = 0; i < heroes.Count; i++)
+            {
+                if(heroes[i].Name == HeroObj.Name)
+                {
+                    heroes[i] = HeroObj;
+                }
+            }
 
             using (StreamWriter streamWriter = new StreamWriter(filePath, false))
             {
-                streamWriter.Write(_jsonObject);
+                streamWriter.Write(JsonConvert.SerializeObject(heroes));
             }
 
             Close();
         }
+
+        private void uiBtnAdd_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void uiBtnBrowse_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog open = new OpenFileDialog())
+            {
+                open.Filter = "Image Files(*.png)|*.png";
+                open.Multiselect = false;
+                open.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+
+                if (open.ShowDialog() == DialogResult.OK)
+                {
+                    var splitName = open.SafeFileName.Split('.');
+                    string name = splitName[0];
+
+                    if(name.ToUpper() != uiTxtName.Text.ToUpper())
+                    {
+                        MessageBox.Show("Nazwa zdjęcia musi się zgadzać z nazwą bohatera.", "Uwaga", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
+
+                    uiTxtPathToPicture.Text = open.FileName;
+                    uiPbPhoto.Image = Image.FromFile(open.FileName);
+                }
+            }
+            
+       }
     }
 }

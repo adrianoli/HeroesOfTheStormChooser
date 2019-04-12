@@ -76,7 +76,7 @@ namespace HeroesOfTheStormChooser
             string path = Directory.GetCurrentDirectory();
             string fileName = "Maps.json";
 
-            string json = File.ReadAllText($"{path}\\{fileName}");
+            string json = File.ReadAllText($"{path}\\Assets\\{fileName}");
             dynamic jsonObjects = JsonConvert.DeserializeObject(json);
 
             _maps = jsonObjects.ToObject<List<string>>();
@@ -167,7 +167,7 @@ namespace HeroesOfTheStormChooser
                 pictureBox.Tag = map;
                 pictureBox.Location = new Point(actualWidth, actualHeight);
                 pictureBox.Size = new Size(_pictureBoxWidth, _pictureBoxHeight);
-                pictureBox.Image = Image.FromFile($"{Directory.GetCurrentDirectory()}\\{"MapsIcons"}\\{map}.jpg");
+                pictureBox.Image = Image.FromFile($"{Directory.GetCurrentDirectory()}\\{"Assets\\MapsIcons"}\\{map}.jpg");
                 pictureBox.SizeMode = PictureBoxSizeMode.Zoom;
 
                 new ToolTip().SetToolTip(pictureBox, map);
@@ -199,7 +199,7 @@ namespace HeroesOfTheStormChooser
                 pictureBox.Tag = hero;
                 pictureBox.Location = new Point(actualWidth, actualHeight);
                 pictureBox.Size = new Size(_pictureBoxWidth, _pictureBoxHeight);
-                pictureBox.Image = Image.FromFile($"{Directory.GetCurrentDirectory()}\\{"HeroesIcons"}\\{hero.Name}.png");
+                pictureBox.Image = Image.FromFile($"{Directory.GetCurrentDirectory()}\\{"Assets\\HeroesIcons"}\\{hero.Name}.png");
                 pictureBox.SizeMode = PictureBoxSizeMode.Zoom;
 
                 new ToolTip().SetToolTip(pictureBox, hero.Name);
@@ -344,9 +344,10 @@ namespace HeroesOfTheStormChooser
             PictureBox pictureBox = (PictureBox)sender;
             Hero hero = (Hero)pictureBox.Tag;
 
-            using (var heroConfiguration = new HeroConfiguration(hero, _jsonObject))
+            using (var heroConfiguration = new HeroConfiguration(hero))
             {
                 heroConfiguration.ShowDialog();
+                pictureBox.Tag = heroConfiguration.HeroObj;
             }
         }
 

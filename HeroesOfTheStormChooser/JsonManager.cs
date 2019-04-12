@@ -18,20 +18,20 @@ namespace HeroesOfTheStormChooser
             string path = Directory.GetCurrentDirectory();
             string fileName = "Heroes.json";
 
-            string json = File.ReadAllText($"{path}\\{fileName}");
+            string json = File.ReadAllText($"{path}\\Assets\\{fileName}");
             dynamic jsonObjects = JsonConvert.DeserializeObject(json);
 
             foreach (var jsonObj in jsonObjects)
             {
                 Hero hero = new Hero(jsonObj.Name.ToString());
-                hero.AttackType = Enum.Parse(typeof(eAttackType), jsonObj.AttackType.ToString());
-                hero.Role = Enum.Parse(typeof(eRole), jsonObj.Role.ToString());
-                hero.Synergizes = GetDataListFromJson(jsonObj.Synergizes.ToString());
-                hero.Strongs = GetDataListFromJson(jsonObj.Strongs.ToString()); 
-                hero.Counters = GetDataListFromJson(jsonObj.Counters.ToString());
-                hero.GoodMaps = GetDataListFromJson(jsonObj.GoodMaps.ToString());
-                hero.WeakMaps = GetDataListFromJson(jsonObj.WeakMaps.ToString());
-                hero.CrowdControls = GetDataListFromJson(jsonObj.CrowdControl.ToString());
+                hero.AttackType = Enum.Parse(typeof(eAttackType), jsonObj.AttackType?.ToString());
+                hero.Role = Enum.Parse(typeof(eRole), jsonObj.Role?.ToString());
+                hero.Synergizes = GetDataListFromJson(jsonObj.Synergizes?.ToString());
+                hero.Strongs = GetDataListFromJson(jsonObj.Strongs?.ToString()); 
+                hero.Counters = GetDataListFromJson(jsonObj.Counters?.ToString());
+                hero.GoodMaps = GetDataListFromJson(jsonObj.GoodMaps?.ToString());
+                hero.WeakMaps = GetDataListFromJson(jsonObj.WeakMaps?.ToString());
+                hero.CrowdControls = GetDataListFromJson(jsonObj.CrowdControl?.ToString());
 
                 heroes.Add(hero);
             }
@@ -40,8 +40,14 @@ namespace HeroesOfTheStormChooser
         }
 
         public static List<string> GetDataListFromJson(string jsonData)
-        {
+        {         
             List<string> data = new List<string>();
+
+            if (jsonData == null)
+            {
+                return data;
+            }
+
             string pattern = "\"[\\w ]*\"";
             Regex r = new Regex(pattern);
             MatchCollection mc = r.Matches(jsonData);
@@ -59,7 +65,7 @@ namespace HeroesOfTheStormChooser
             string path = Directory.GetCurrentDirectory();
             string fileName = pfileName;
 
-            string json = File.ReadAllText($"{path}\\{fileName}");
+            string json = File.ReadAllText($"{path}\\Assets\\{fileName}");
             object jsonObjects = JsonConvert.DeserializeObject(json);
 
             return jsonObjects;

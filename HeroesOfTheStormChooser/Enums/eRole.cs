@@ -2,10 +2,11 @@
 {
     public enum eRole
     {
-        Assasin,
-        Warrior,
-        Support,
-        Specialist,
-        Multiclass
+        Tank,
+        Bruiser,
+        RangedAssasin,
+        MeleeAssasin,
+        Healer,
+        Support
     }
 }
