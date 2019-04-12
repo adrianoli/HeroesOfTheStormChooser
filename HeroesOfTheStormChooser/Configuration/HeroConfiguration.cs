@@ -17,14 +17,14 @@ namespace HeroesOfTheStormChooser.Configuration
     public partial class HeroConfiguration : Form
     {
         private HeroConfigurationLogic _heroConfigurationLogic;
-        dynamic _jsonObject;
-
+        
         public HeroConfiguration()
         {
             InitializeComponent();
         }
 
         public Hero HeroObj { get; private set; }
+        public dynamic JsonObjectInstance { get; private set; }
 
         public HeroConfiguration(object jsonObject) : this()
         {
@@ -32,7 +32,7 @@ namespace HeroesOfTheStormChooser.Configuration
 
             _heroConfigurationLogic = new HeroConfigurationLogic(hero, jsonObject);
             HeroObj = hero;
-            _jsonObject = jsonObject;
+            JsonObjectInstance = jsonObject;
 
             Initialize();
             InitializeFormToAddMode();
@@ -42,7 +42,7 @@ namespace HeroesOfTheStormChooser.Configuration
         {
             _heroConfigurationLogic = new HeroConfigurationLogic(hero, jsonObject);
             HeroObj = hero;
-            _jsonObject = jsonObject;
+            JsonObjectInstance = jsonObject;
 
             Initialize();
             InitializeFormToSaveMode();
@@ -92,16 +92,25 @@ namespace HeroesOfTheStormChooser.Configuration
         {
             Control control = (Control)sender;
 
-            foreach (var jsonObj in _jsonObject)
+            foreach (var jsonObj in JsonObjectInstance)
             {
                 if (jsonObj.Name == HeroObj.Name)
                 {
-                    List<string> jsonSynergizes = JsonManager.GetDataListFromJson(jsonObj.Synergizes.ToString());
+                    List<string> jsonSynergizes;
+                    if (jsonObj.Synergizes is List<string>)
+                    {
+                        jsonSynergizes = jsonObj.Synergizes;
+                    }
+                    else
+                    {
+                        jsonSynergizes = JsonManager.GetDataListFromJson(jsonObj.Synergizes.ToString());
+                    }
+                     
                     using (var addHeroToList = new AddHeroesToList(control.Text, HeroObj.Name, jsonSynergizes))
                     {
                         if (addHeroToList.ShowDialog() == DialogResult.OK)
                         {
-                            jsonObj.Synergizes = JsonConvert.SerializeObject(addHeroToList.Result);
+                            HeroObj.Synergizes = addHeroToList.Result;
                         }
                     }
 
@@ -114,16 +123,25 @@ namespace HeroesOfTheStormChooser.Configuration
         {
             Control control = (Control)sender;
 
-            foreach (var jsonObj in _jsonObject)
+            foreach (var jsonObj in JsonObjectInstance)
             {
                 if (jsonObj.Name == HeroObj.Name)
                 {
-                    List<string> jsonStrongs = JsonManager.GetDataListFromJson(jsonObj.Strongs.ToString());
+                    List<string> jsonStrongs;
+                    if (jsonObj.Strongs is List<string>)
+                    {
+                        jsonStrongs = jsonObj.Strongs; 
+                    }
+                    else
+                    {
+                        jsonStrongs = JsonManager.GetDataListFromJson(jsonObj.Strongs.ToString());
+                    }
+
                     using (var addHeroToList = new AddHeroesToList(control.Text, HeroObj.Name, jsonStrongs))
                     {
                         if (addHeroToList.ShowDialog() == DialogResult.OK)
                         {
-                            jsonObj.Strongs = JsonConvert.SerializeObject(addHeroToList.Result);
+                            HeroObj.Strongs = addHeroToList.Result;
                         }
                     }
 
@@ -136,11 +154,20 @@ namespace HeroesOfTheStormChooser.Configuration
         {
             Control control = (Control)sender;
 
-            foreach (var jsonObj in _jsonObject)
+            foreach (var jsonObj in JsonObjectInstance)
             {
                 if (jsonObj.Name == HeroObj.Name)
                 {
-                    List<string> jsonCounters = JsonManager.GetDataListFromJson(jsonObj.Counters.ToString());
+                    List<string> jsonCounters;
+                    if (jsonObj.Counters is List<string>)
+                    {
+                        jsonCounters = jsonObj.Counters;
+                    }
+                    else
+                    {
+                        jsonCounters = JsonManager.GetDataListFromJson(jsonObj.Counters.ToString());
+                    }
+                     
                     using (var addHeroToList = new AddHeroesToList(control.Text, HeroObj.Name, jsonCounters))
                     {
                         if (addHeroToList.ShowDialog() == DialogResult.OK)
@@ -194,6 +221,9 @@ namespace HeroesOfTheStormChooser.Configuration
                 streamWriter.Write(JsonConvert.SerializeObject(heroes));
             }
 
+            JsonObjectInstance = JsonManager.LoadHeroesJson();
+
+            this.DialogResult = DialogResult.OK;
             Close();
         }
 

@@ -344,10 +344,13 @@ namespace HeroesOfTheStormChooser
             PictureBox pictureBox = (PictureBox)sender;
             Hero hero = (Hero)pictureBox.Tag;
 
-            using (var heroConfiguration = new HeroConfiguration(hero))
+            using (var heroConfiguration = new HeroConfiguration(hero, _jsonObject))
             {
-                heroConfiguration.ShowDialog();
-                pictureBox.Tag = heroConfiguration.HeroObj;
+                if (heroConfiguration.ShowDialog() == DialogResult.OK)
+                {
+                    pictureBox.Tag = heroConfiguration.HeroObj;
+                    _jsonObject = heroConfiguration.JsonObjectInstance;
+                }
             }
         }
 
